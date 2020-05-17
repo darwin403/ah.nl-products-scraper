@@ -22,12 +22,6 @@ Run the command to start scraping:
 
 ```bash
 npm start
-# 2020-05-17 23:30:15 [index.js] info: Scraping category: "aardappel-groente-fruit"
-# 2020-05-17 23:30:17 [index.js] info: Pages scraped: 1/3
-# 2020-05-17 23:30:17 [index.js] info: Products found: 500
-# .
-# .
-# .
 ```
 
 # Features
