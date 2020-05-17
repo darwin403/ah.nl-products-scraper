@@ -44,6 +44,7 @@ const enabledPipelines = {
 
 # Notes
 
+- A total of `23,206` unique products are available and were scraped successfully by this bot as of this writing `May 18 2020`.
 - The API enpoint imposes a max `pageSize` of `1000`.
 - The API endpoint has not user-agent or bot checks.
 - The main categories are enumerate explicity in `index.js` which are:
