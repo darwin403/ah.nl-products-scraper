@@ -1,16 +1,18 @@
-# Ah.nl Product Scraper
+# ah.nl Product Scraper
 
-> A bot that scrapes all available products from [Ah.nl](https://www.ah.nl/producten)
+> A bot that scrapes all available products from [ah.nl](https://www.ah.nl/producten)
 
-![](screenshot.png)
+![http://ah.nl/producten/product/wi54074/ah-komkommer](screenshot.png)
+
+The above screenshot is a sample of one product entry scraped by bot.
 
 # Install
 
 Make sure `node` and `npm` are insalled.
 
 ```bash
-git clone # clone repository
-cd bot
+git clone https://github.com/skdcodes/freelancer-bot-ah.nl.git # clone repository
+cd freelancer-bot-ah.nl
 npm install # install node modules
 ```
 
@@ -75,4 +77,10 @@ const categories = [
   "huishouden-huisdier",
   "koken-tafelen-non-food",
 ];
+```
+
+- You can create a local MS SQL Server 2017 instance for Ubuntu through [docker](https://hub.docker.com/_/microsoft-mssql-server) by running:
+
+```bash
+docker run -e 'ACCEPT_EULA=Y' -e 'SA_PASSWORD=yourStrong(!)Password' -p 1433:1433 -d mcr.microsoft.com/mssql/server:2017-CU8-ubuntu
 ```

@@ -5,6 +5,9 @@
     "clean": "rm -rf logs dumps"
   },
   "dependencies": {
+    "mssql": "^6.2.0",
+    "node-fetch": "^2.6.0",
+    "request": "^2.88.2",
     "winston": "^3.2.1",
     "winston-daily-rotate-file": "^4.4.2"
   }

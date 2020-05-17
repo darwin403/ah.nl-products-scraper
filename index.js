@@ -10,8 +10,8 @@ const storeSQL = require("./pipelines/sql");
 // pipelines that will be used after each set of products are scraped
 const enabledPipelines = {
   file: true, // enable to store products to dumps/data.jl
-  images: true, // enable to store product images to dumps/images
-  SQL: true, // enable to store products to Microsoft SQL Server
+  images: false, // enable to store product images to dumps/images
+  SQL: false, // enable to store products to Microsoft SQL Server
 };
 
 const categories = [
@@ -67,7 +67,7 @@ const categories = [
         const api = "https://www.ah.nl/zoeken/api/products/search?";
         const params = new URLSearchParams({
           taxonomySlug: category,
-          size: 500, // ah.nl imposes max size: 1000
+          size: 10, // ah.nl imposes max size: 1000
           page: currentPage,
         });
         const url = api + params;
