@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "start": "NODE_ENV=production node index.js",
+    "develop": "node index.js",
+    "clean": "rm -rf logs dumps"
+  },
+  "dependencies": {
+    "winston": "^3.2.1",
+    "winston-daily-rotate-file": "^4.4.2"
+  }
+}

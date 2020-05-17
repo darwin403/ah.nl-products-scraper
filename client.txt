@@ -1,0 +1,12 @@
+Provide me a solution that I can schedule on my windows server 2012r2-64bit, SQL srv 2014
+
+The solution will scrape all products and product images from an online shop. this shop already has a structure that should be re-used.
+
+Solution-Goal-Work:
+When scraping all products for first time, store data in database and download/store image to filesystem .
+When scraping for a next time, the solution should update data in database and on filesystem when something has changed. In other words only process changes.
+
+Only respond when you have experience.
+This is not a simple html scrape.
+
+It would be great if this could be done in classic asp/vbs otherwise any other language is good as long as it meets my requirements.
